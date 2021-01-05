@@ -1,0 +1,60 @@
+<!--Você pegou o html pronto da outra página pra coisar aqui, excluiu a showcase -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the most extraordinary hotel in Boston Massachusetts">
+    <meta name="keywords" content="boston hotel, boston, new england hotel">
+    <link rel="stylesheet" href="css/stylesheet.css"> <!-- Com esse negócio você está indigando onde o CSS está -->
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <title>Hotel BT | About </title>
+</head>
+<body>
+    <header> <!-- Aqui é o começo do cabeçalho, dentro do cabeçalho posso tanto colocar um monte de coisa quando dividir essa coisa em seções-->
+      <nav id="navbar"> <!-- ID e Class sevem para caracterizar algo, nomear, tanto faz qual eu uso, MAS não seria legal ter dois IDs chamados de Navbar na mesma pagina-->
+          <div class="container">
+        <h1 class="logo"><a href="index.html"> HBT</a></h1>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a class="current" href="about.html">About</a></li> <!-- Lembra de colocar o </a> na posição certa-->
+              <li><a href="Contact.html">Contact</a></li>
+              <!--Esses são itens listados UL para indicar a lista LI para indicar cada item listado-->
+          </ul>
+        </div>
+      </nav>
+      <!--Navbar acaba aqui || no dia 11/05 de 2020 às 18:51 eu ainda não fiz o CSS da navbar,então apenas o css é horrivel.-->
+  </header>
+  <section id="about-info" class="bg-light py-3">
+      <div class="container">
+          <div class="info-left">
+              <h1 class="l-heading"><span class="text-primary">About</span> hotel BT</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, blanditiis ipsa explicabo animi maxime libero. Nihil, quo atque. Corporis quis beatae cum suscipit corrupti temporibus, officia tenetur velit nihil necessitatibus!</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod velit tempora veritatis facere blanditiis aspernatur, expedita sunt! Iure, numquam eligendi!</p>
+            </div>
+          <div class="info-right">
+              <img src="./img/photo-2.jpg" alt="hotel">
+          </div>
+      </div>
+  </section>
+
+  <div class="clr"></div>
+
+  <Section id="testimonials" class="py3">
+    <div class="container">
+        <h2 class="l-heading"> What Our Guests Say</h2>
+        <div class="testimonial bg-primary">
+            <img src="./img/person-1.jpg" alt="Samantha">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A nemo provident veniam fugit. Dolorem optio suscipit, iure, quia aspernatur accusantium, aut at eum cumque autem labore illo temporibus consequuntur id ipsum tenetur quasi et velit molestiae esse veniam ab omnis?</p>
+        </div>
+        <div class="testimonial bg-primary">
+            <img src="./img/person-2.jpg" alt="Jen">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A nemo provident veniam fugit. Dolorem optio suscipit, iure, quia aspernatur accusantium, aut at eum cumque autem labore illo temporibus consequuntur id ipsum tenetur quasi et velit molestiae esse veniam ab omnis?</p>
+        </div>
+    </div>
+  </Section>
+    <footer id="main-footer">
+      <p>Hotel BR &copy; 2019, All Rights Reserved</p>
+    </footer>
+</body>
+</html>
